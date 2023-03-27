@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-import { Button } from 'react-bootstrap';
+// components
+import Header from "./layout/header/Header";
+import Footer from "./layout/footer/Footer";
+import Home from "./pages/home/Index";
 
 function App() {
 
   return (
     <div className="App">
-      <Button as="a" variant="primary">
-        Button as link
-      </Button>
+      <Header />
+      <Home />
+      <Footer />
     </div>
   )
 }
