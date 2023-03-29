@@ -48,7 +48,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-style: normal;
 	font-size: 18px;
 	line-height: 28px;
@@ -161,7 +161,7 @@ p {
 	color: #fff;
 	font-size: 14px;
 	line-height: 14px;
-	padding: 18px 40px;
+	padding: 16px 36px;
 }
 .btn-blue-sm:hover {
 	background-color: #fff;
@@ -186,10 +186,11 @@ p {
 	color: #3D00B7;
 	font-size: 14px;
 	line-height: 14px;
-	padding: 18px 22px;
+	padding: 16px 20px;
 }
 .btn-transparent:hover {
 	background-color: #3D00B7;
+	color: #fff;
 }
 button:focus, .btn:focus {
 	box-shadow: none;
@@ -227,6 +228,11 @@ button:focus, .btn:focus {
     color: #14C8B0;
 }
 
+/* customize bootstrap */
 .container {
-    max-width: 1400px;
+    max-width: 1350px;
+}
+.form-control:focus {
+	outline: none;
+	box-shadow: none;
 }

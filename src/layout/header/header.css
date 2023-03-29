@@ -1,3 +1,50 @@
 header {
     border-bottom: 1px solid #EFEFEF;
 }
+header .navbar {
+    padding: 20px 0;
+}
+header .navbar-brand {
+    margin-right: 50px;
+}
+header .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    position: relative;
+    margin-right: 20px;
+}
+header .nav-link:last-child {
+    margin-right: 0;
+}
+header .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #3D00B7;
+    transition: 0.3s !important;
+}
+header .nav-link:hover {
+    color: #3D00B7;
+}
+header .nav-link:hover::after {
+    width: 100%;
+}
+.buttons-search .search-input .form-control {
+    border: 1px solid #EFEFEF;
+    border-right: 0;
+    border-radius: 100px 0 0 100px;
+    padding: 10px 20px;
+}
+.buttons-search .search-input .input-group-text {
+    background-color: transparent;
+    border-radius: 0 100px 100px 0;
+    border: 1px solid #EFEFEF;
+}
+.buttons-search .search-input .input-group-text svg {
+    height: 20px;
+    width: 20px;
+}
