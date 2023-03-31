@@ -1,0 +1,32 @@
+.colc-featured-area {
+    padding: 65px 0 80px;
+    background: rgba(217, 224, 236, 0.2);
+    backdrop-filter: blur(25px);
+}
+.colc-featured-area .section-heading {
+    margin-bottom: 42px;
+}
+.colc-featured-area .img-row {
+    margin-bottom: 28px;
+}
+.colc-featured-area .big-img {
+    width: 100%;
+    border-radius: 11px;
+}
+.colc-featured-area .small-img {
+    width: 100%;
+    border-radius: 11px;
+    margin-bottom: 10px;
+}
+.colc-featured-area .user-img {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+.colc-featured-area .user-name {
+    font-size: 16px;
+}
+.colc-featured-area .btn {
+    font-size: 12px;
+    padding: 6px 10px;
+}
