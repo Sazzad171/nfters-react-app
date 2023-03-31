@@ -1,6 +1,79 @@
 .top-collection-area {
     padding: 120px 0;
 }
-.main-colc-item-box {
-
+.main-colc-item-box .main-img {
+    width: 100%;
+    border-radius: 24px;
+    margin-bottom: 32px;
+}
+.main-colc-item-box .user-img {
+    min-width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+.main-colc-item-box .user-stock {
+    font-size: 16px;
+}
+.main-colc-item-box .bid p {
+    font-size: 14px;
+    color: #3A3A3A;
+}
+.main-colc-item-box .bid h6 {
+    color: #3A3A3A;
+    font-size: 16px;
+}
+.other-colc-items-box .item {
+    margin-bottom: 40px;
+    column-gap: 20px;
+}
+.other-colc-items-box .user-info .user-img {
+    min-width: 34px;
+    height: 34px;
+    object-fit: cover;
+}
+.other-colc-items-box .item .user-info .btn {
+    border: 1px solid #00AC4F;
+    border-radius: 6px;
+    color: #00AC4F;
+    font-size: 14px;
+    padding: 8px;
+}
+.other-colc-items-box .user-info p {
+    color: #757575;
+    font-size: 14px;
+}
+.top-colc-box {
+    border-left: 1px solid #ECECEC;
+    padding-left: 30px;
+}
+.top-colc-box .heading-area {
+    margin-bottom: 16px;
+}
+.top-colc-box .item {
+    gap: 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid #F0F0F0;
+}
+.top-colc-box .item:last-child {
+    border-bottom: 0;
+}
+.top-colc-box .item .colc-img {
+    min-width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.top-colc-box .item .badge-img {
+    top: -5px;
+    right: -3px;
+}
+.top-colc-box .item .colc-name {
+    font-size: 16px;
+}
+.top-colc-box .item p {
+    font-size: 14px;
+    color: #636363;
+}
+.top-colc-box .item .eth-icon {
+    color: #000;
+    height: 20px;
 }
