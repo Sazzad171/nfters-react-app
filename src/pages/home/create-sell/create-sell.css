@@ -1,0 +1,16 @@
+.create-sell-area {
+    padding: 100px 0 80px;
+}
+.create-sell-area .left-imgs-box .img-2 {
+    padding-left: 30%;
+}
+.create-sell-area .content-box h3 {
+    margin-bottom: 40px;
+}
+.create-sell-area p {
+    margin-bottom: 32px;
+}
+.create-sell-area .btn {
+    padding: 16px 34px;
+    font-size: 18px;
+}
