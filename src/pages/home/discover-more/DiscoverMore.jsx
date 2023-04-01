@@ -9,9 +9,6 @@ import TabContentComp from './TabContent.jsx';
 // import custom css
 import './discover-more.css';
 
-// icons import
-import {MdFilterList} from 'react-icons/Md';
-
 export default function DiscoverMore() {
 
   return (
@@ -53,7 +50,8 @@ export default function DiscoverMore() {
             <Col md={3} lg={2}>
               <p>
                 <button className="btn btn-filter d-flex align-items-center gap-2 ms-md-auto">
-                  <MdFilterList /> All Filters
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 120h480v48H16zm80 112h320v48H96zm96 112h128v48H192z"></path></svg>
+                  All Filters
                 </button>
               </p>
             </Col>
