@@ -10,7 +10,7 @@ import TabContentComp from './TabContent.jsx';
 import './discover-more.css';
 
 // icons import
-import {IoFilterSharp} from 'react-icons/Io';
+import {FaEthereum} from 'react-icons/fa';
 
 export default function DiscoverMore() {
 
@@ -53,7 +53,7 @@ export default function DiscoverMore() {
             <Col md={3} lg={2}>
               <p>
                 <button className="btn btn-filter d-flex align-items-center gap-2 ms-md-auto">
-                  <IoFilterSharp /> All Filters
+                  <FaEthereum /> All Filters
                 </button>
               </p>
             </Col>
