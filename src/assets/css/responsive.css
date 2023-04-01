@@ -89,13 +89,13 @@
 /* small mobile :576px. */
 @media (max-width: 576px) {
     .banner-area .user-info {
-        left: 55px;
+        left: 14%;
         top: 10px;
     }
     .banner-area .bid-nd-time {
         width: calc(100% - 108px);
         bottom: 10px;
-        left: 55px;
+        left: 14%;
         padding: 12px;
     }
     .other-colc-items-box .item {
