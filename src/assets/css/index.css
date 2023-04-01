@@ -166,7 +166,7 @@ p {
 .btn-blue-sm:hover {
 	background-color: #fff;
 	color: #3D00B7;
-    border: 1px solid #3D00B7;
+    border-color: #3D00B7;
 }
 .btn-blue-lg {
 	background-color: #3D00B7;

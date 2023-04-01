@@ -1,23 +1,100 @@
 .discover-more-area {
     background: rgba(217, 224, 236, 0.2);
     backdrop-filter: blur(25px);
-    padding: 60px 45px;
+    padding: 60px 0 45px;
 }
 .discover-more-area .section-heading {
     margin-bottom: 36px;
 }
-.discover-more-area {
-    
+.discover-more-area .tab-nav-row {
+    margin-bottom: 36px;
 }
-.discover-more-area {
-    
+.discover-more-area .nav-pills {
+    gap: 12px;
 }
-.discover-more-area {
-    
+.discover-more-area .nav-pills .nav-link {
+    background: rgba(220, 220, 220, 0.2);
+    border-radius: 100px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 20px;
 }
-.discover-more-area {
-    
+.discover-more-area .nav-pills .nav-link.active {
+    background: #3D00B7;
+    color: #fff;
 }
-.discover-more-area {
-    
+.discover-more-area .btn-filter {
+    background: rgba(220, 220, 220, 0.2);
+    border-radius: 100px;
+    color: #371C87;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 20px;
+}
+.discover-more-area .btn-filter:hover {
+    background: #3D00B7;
+    color: #fff;
+}
+.discover-more-area .btn-filter svg {
+    width: 24px;
+    height: 24px;
+}
+.discover-more-area .nfts-item {
+    background: #FFFFFF;
+    border: 1.09706px solid rgba(242, 242, 242, 0.5);
+    border-radius: 13px;
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 40px;
+}
+.discover-more-area .nfts-item .main-img-box img {
+    border-radius: 13px;
+}
+.discover-more-area .nfts-item .content-box {
+    padding: 0 12px;
+    margin-top: -16px;
+}
+.discover-more-area .nfts-item .user-imgs img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.discover-more-area .nfts-item .user-imgs img:first-child {
+    margin-left: 0;
+}
+.discover-more-area .nfts-item .eth-box .eth-text {
+    font-size: 12px;
+    color: #00AC4F;
+}
+.discover-more-area .nfts-item .eth-box .count {
+    color: #838383;
+    font-size: 14px;
+}
+.discover-more-area .nfts-item hr {
+    border: 1px dashed #9f9f9f;
+    margin: 18px 0 10px;
+}
+.discover-more-area .nfts-item .left-btn {
+    background: #F5F5F5;
+    border-radius: 100px;
+    color: #5539A8;
+    font-size: 12px;
+    padding: 3px 10px;
+}
+.discover-more-area .nfts-item .left-btn:hover {
+    background-color: #5539A8;
+    color: #fff;
+}
+.discover-more-area .nfts-item .bid-btn {
+    font-size: 16px;
+    color: #4F33A3;
+    font-weight: 500;
+    padding: 5px 12px;
+}
+.discover-more-area .nfts-item .bid-btn:hover {
+    background-color: #5539A8;
+    color: #fff;
 }

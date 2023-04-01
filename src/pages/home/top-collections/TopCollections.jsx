@@ -145,7 +145,6 @@ export default function TopCollections() {
                 <h5 className='font-dm-sans font-700'>2</h5>
                 <div className="colc-img position-relative">
                   <img src={Topcol2} alt="user" className="img-fluid colc-img rounded-circle" />
-                  <img src={Badge} alt="badge" className="badge-img position-absolute" />
                 </div>
                 <div>
                   <h6 className='colc-name font-dm-sans font-500 mb-1'>Cryptix</h6>
@@ -158,7 +157,6 @@ export default function TopCollections() {
                 <h5 className='font-dm-sans font-700'>3</h5>
                 <div className="colc-img position-relative">
                   <img src={Topcol3} alt="user" className="img-fluid colc-img rounded-circle" />
-                  <img src={Badge} alt="badge" className="badge-img position-absolute" />
                 </div>
                 <div>
                   <h6 className='colc-name font-dm-sans font-500 mb-1'>Frensware</h6>
@@ -184,7 +182,6 @@ export default function TopCollections() {
                 <h5 className='font-dm-sans font-700'>5</h5>
                 <div className="colc-img position-relative">
                   <img src={Topcol5} alt="user" className="img-fluid colc-img rounded-circle" />
-                  <img src={Badge} alt="badge" className="badge-img position-absolute" />
                 </div>
                 <div>
                   <h6 className='colc-name font-dm-sans font-500 mb-1'>Art Crypto</h6>

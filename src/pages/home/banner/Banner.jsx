@@ -13,6 +13,7 @@ import User from '../../../assets/img/user.png';
 import BidImg from '../../../assets/img/ethereum.svg';
 
 export default function Banner() {
+
   return (
     <section className="banner-area position-relative">
       <Container>
@@ -62,7 +63,7 @@ export default function Banner() {
                 </div>
                 <div>
                   <p className='font-dm-sans'>Ends in</p>
-                  <h6 className='font-dm-sans'>12h  43m  42s</h6>
+                  <h6 className='font-dm-sans'>5h  23m  11s</h6>
                 </div>
               </div>
             </div>
