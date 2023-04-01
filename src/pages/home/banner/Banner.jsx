@@ -19,7 +19,7 @@ export default function Banner() {
       <Container>
         <Row className='align-items-center'>
           {/* left col */}
-          <Col md={7}>
+          <Col lg={7} className='order-2 order-lg-1'>
             <h1 className='main-heading'>Discover, and collect <br /> Digital Art  NFTs </h1>
             <p className='par-block'>
               Digital marketplace for crypto collectibles and <br /> non-fungible tokens (NFTs). Buy, Sell, and discover <br /> exclusive digital assets.
@@ -43,7 +43,7 @@ export default function Banner() {
             </div>
           </Col>
           {/* right col */}
-          <Col md={5}>
+          <Col lg={5} className='order-1 order-lg-2 mb-4 mb-lg-0'>
             <div className="img-box position-relative">
               <img src={BannerLayers} alt="banner layers" className='img-fluid' />
               <div className="user-info position-absolute">

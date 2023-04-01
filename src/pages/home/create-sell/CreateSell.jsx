@@ -20,14 +20,14 @@ export default function CreateSell() {
       <Container>
         <Row className="align-items-center">
           {/* left col */}
-          <Col md={4}>
+          <Col xs={6} md={4}>
             <div className="left-imgs-box">
               <img src={CreateSell1} alt="img" className="img-fluid w-100 mb-3" />
               <img src={CreateSell2} alt="img" className="img-fluid w-100 img-2" />
             </div>
           </Col>
           {/* middle col */}
-          <Col md={3}>
+          <Col xs={6} md={3}>
             <div className="middle-imgs-box">
               <img src={CreateSell3} alt="img" className="img-fluid w-100" />
             </div>

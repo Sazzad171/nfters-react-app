@@ -23,7 +23,7 @@ export default function DiscoverMore() {
 	return (
 		<Row>
       {/* first col */}
-      <Col md={3}>
+      <Col md={6} lg={3}>
         <div className="nfts-item">
           <div className="main-img-box">
             <img src={NFTS1} alt="nfts img" className="img-fluid w-100" />
@@ -63,7 +63,7 @@ export default function DiscoverMore() {
         </div>
       </Col>
       {/* second col */}
-      <Col md={3}>
+      <Col md={6} lg={3}>
         <div className="nfts-item">
           <div className="main-img-box">
             <img src={NFTS2} alt="nfts img" className="img-fluid w-100" />
@@ -103,7 +103,7 @@ export default function DiscoverMore() {
         </div>
       </Col>
       {/* third col */}
-      <Col md={3}>
+      <Col md={6} lg={3}>
         <div className="nfts-item">
           <div className="main-img-box">
             <img src={NFTS3} alt="nfts img" className="img-fluid w-100" />
@@ -143,7 +143,7 @@ export default function DiscoverMore() {
         </div>
       </Col>
       {/* fourth col */}
-      <Col md={3}>
+      <Col md={6} lg={3}>
         <div className="nfts-item">
           <div className="main-img-box">
             <img src={NFTS4} alt="nfts img" className="img-fluid w-100" />
@@ -183,7 +183,7 @@ export default function DiscoverMore() {
         </div>
       </Col>
       {/* first col */}
-      <Col md={3}>
+      <Col md={6} lg={3}>
         <div className="nfts-item">
           <div className="main-img-box">
             <img src={NFTS1} alt="nfts img" className="img-fluid w-100" />
@@ -223,7 +223,7 @@ export default function DiscoverMore() {
         </div>
       </Col>
       {/* second col */}
-      <Col md={3}>
+      <Col md={6} lg={3}>
         <div className="nfts-item">
           <div className="main-img-box">
             <img src={NFTS2} alt="nfts img" className="img-fluid w-100" />
@@ -263,7 +263,7 @@ export default function DiscoverMore() {
         </div>
       </Col>
       {/* third col */}
-      <Col md={3}>
+      <Col md={6} lg={3}>
         <div className="nfts-item">
           <div className="main-img-box">
             <img src={NFTS3} alt="nfts img" className="img-fluid w-100" />
@@ -303,7 +303,7 @@ export default function DiscoverMore() {
         </div>
       </Col>
       {/* fourth col */}
-      <Col md={3}>
+      <Col md={6} lg={3}>
         <div className="nfts-item">
           <div className="main-img-box">
             <img src={NFTS4} alt="nfts img" className="img-fluid w-100" />

@@ -22,10 +22,10 @@ export default function CollectionFeaturedNfts() {
         <h4 className='section-heading'>Collection Featured NFTs</h4>
         <Row>
           {/* left col */}
-          <Col md={4}>
+          <Col md={4} className='mb-3 mb-md-0'>
             <div className="cfn-col">
               <Row className='img-row'>
-                <Col md={9} className="pe-1">
+                <Col md={9} className="pe-md-1">
                   <img src={CFN1} alt="collection img" className="img-fluid big-img" />
                 </Col>
                 <Col md={3} className="ps-1">
@@ -51,10 +51,10 @@ export default function CollectionFeaturedNfts() {
             </div>
           </Col>
           {/* middle col */}
-          <Col md={4}>
+          <Col md={4} className='mb-3 mb-md-0'>
             <div className="cfn-col">
               <Row className='img-row'>
-                <Col md={9} className="pe-1">
+                <Col md={9} className="pe-md-1">
                   <img src={CFN2} alt="collection img" className="img-fluid big-img" />
                 </Col>
                 <Col md={3} className="ps-1">
@@ -80,10 +80,10 @@ export default function CollectionFeaturedNfts() {
             </div>
           </Col>
           {/* right col */}
-          <Col md={4}>
+          <Col md={4} className='mb-3 mb-md-0'>
             <div className="cfn-col">
               <Row className='img-row'>
-                <Col md={9} className="pe-1">
+                <Col md={9} className="pe-md-1">
                   <img src={CFN3} alt="collection img" className="img-fluid big-img" />
                 </Col>
                 <Col md={3} className="ps-1">

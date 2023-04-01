@@ -1,6 +1,5 @@
 .discover-more-area {
-    background: rgba(217, 224, 236, 0.2);
-    backdrop-filter: blur(25px);
+    background: #F7F9FB;
     padding: 60px 0 45px;
 }
 .discover-more-area .section-heading {

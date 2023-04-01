@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // index css
 import './assets/css/index.css';
+import './assets/css/responsive.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

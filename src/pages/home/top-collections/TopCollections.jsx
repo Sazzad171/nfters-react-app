@@ -30,7 +30,7 @@ export default function TopCollections() {
       <Container>
         <Row>
           {/* left col */}
-          <Col md={4}>
+          <Col md={12} lg={4} className='mb-4 mb-lg-0'>
             <div className="main-colc-item-box">
               <img src={MainColc} alt="collection" className="img-fluid main-img" />
               <div className="d-flex justify-content-between">
@@ -52,8 +52,8 @@ export default function TopCollections() {
             </div>
           </Col>
           {/* middle col */}
-          <Col md={4}>
-            <div className="other-colc-items-box ps-3">
+          <Col md={7} lg={4}>
+            <div className="other-colc-items-box ps-lg-3">
               {/* item */}
               <div className="item d-flex">
                 <div>
@@ -120,7 +120,7 @@ export default function TopCollections() {
             </div>
           </Col>
           {/* right col */}
-          <Col md={4}>
+          <Col md={5} lg={4}>
             <div className="top-colc-box">
               <div className="heading-area">
                 <h6>Top Collections over</h6>

@@ -1,6 +1,5 @@
 .features-area {
-    background: rgba(217, 224, 236, 0.2);
-    backdrop-filter: blur(25px);
+    background: #F7F9FB;
     padding: 100px 0 90px;
 }
 .features-area .feature-item img {

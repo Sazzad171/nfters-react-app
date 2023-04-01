@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="footer-top">
           <Row>
             {/* logo col */}
-            <Col sm={3} lg={4}>
+            <Col xs={12} md={7} lg={4} className='mb-4 mb-md-0'>
               <p className='logo mb-3 mb-md-4'>
                 <a href="/f" className="text-uppercase font-integralcfBold font-700">nfters</a>
               </p>
@@ -36,7 +36,7 @@ export default function Footer() {
               </ul>
             </Col>
             {/* market place col */}
-            <Col sm={3} lg={2}>
+            <Col xs={6} md={5} lg={2} className='mb-4 mb-md-0'>
               <h6 className="col-headings mb-3 mb-md-4">Market Place</h6>
               <ul className="link-items">
                 <li>
@@ -63,7 +63,7 @@ export default function Footer() {
               </ul>
             </Col>
             {/* my account col */}
-            <Col sm={3} lg={2}>
+            <Col xs={6} md={5} lg={2} className='mb-4 mb-md-0'>
               <h6 className="col-headings mb-3 mb-md-4">My Account</h6>
               <ul className="link-items">
                 <li>
@@ -81,7 +81,7 @@ export default function Footer() {
               </ul>
             </Col>
             {/* subs. col */}
-            <Col sm={3} lg={4}>
+            <Col xs={12} md={7} lg={4} className='mb-4 mb-md-0'>
               <h6 className="col-headings mb-3 mb-md-4">Stay in the loop</h6>
               <p className="subs-details mb-3 mb-md-4">
                 Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.

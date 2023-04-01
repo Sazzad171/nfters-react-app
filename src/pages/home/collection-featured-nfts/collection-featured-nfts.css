@@ -1,7 +1,6 @@
 .colc-featured-area {
     padding: 65px 0 80px;
-    background: rgba(217, 224, 236, 0.2);
-    backdrop-filter: blur(25px);
+    background: #F7F9FB;
 }
 .colc-featured-area .section-heading {
     margin-bottom: 42px;

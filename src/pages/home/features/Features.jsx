@@ -16,7 +16,7 @@ export default function Features() {
       <Container>
         <Row>
           {/* left col */}
-          <Col md={4}>
+          <Col md={4} className='mb-3 mb-md-0'>
             <h4 className="features-heading">The amazing NFT art <br /> of the world here</h4>
           </Col>
           {/* middle col */}

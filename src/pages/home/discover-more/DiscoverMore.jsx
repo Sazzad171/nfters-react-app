@@ -24,7 +24,7 @@ export default function DiscoverMore() {
           {/* nav tab */}
           <Row className='tab-nav-row'>
             {/* nav tab col */}
-            <Col md={10}>
+            <Col md={9} lg={10} className='mb-2 mb-md-0'>
               <Nav variant="pills">
                 <Nav.Item>
                   <Nav.Link eventKey="all">All Categories</Nav.Link>
@@ -50,7 +50,7 @@ export default function DiscoverMore() {
               </Nav>
             </Col>
             {/* filter col */}
-            <Col md={2}>
+            <Col md={3} lg={2}>
               <p>
                 <button className="btn btn-filter d-flex align-items-center gap-2 ms-md-auto">
                   <BiFilter /> All Filters
